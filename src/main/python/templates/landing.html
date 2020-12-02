@@ -1,0 +1,44 @@
+<html
+  style="
+    background: url(/static/bg/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+  "
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Disease Predictor</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container-fluid">
+        <div class="statement">
+          <h1 class="select">How many xrays are to be uploaded?</h1>
+          <a href="/single" class="btn btn-outline-dark cv-btn btn-md testbtn"
+            >Single</a
+          >
+          <a href="/multiple" class="btn btn-outline-dark cv-btn btn-md"
+            >Multiple</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

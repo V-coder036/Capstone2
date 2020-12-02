@@ -1,0 +1,53 @@
+html {
+    background: url(bg/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  
+body {
+    background-color: transparent;
+    color:#696969;
+}
+  
+h1,h2 {
+    font-family: "Manrope", sans-serif;
+}
+  
+h4 {
+    position: relative;
+    bottom: 1rem;
+}
+  
+.container-fluid {
+    max-width: 80%;
+    text-align: center;
+}
+
+.statement{
+    padding: 9rem 3rem 5rem;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 11rem;
+    min-height: 20rem;
+  
+}
+
+.cv-btn {
+    margin:2rem 0 3rem;
+}
+  
+.para {
+    display: inline;
+}
+
+.select {
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.final-btn{
+    margin: 1rem 0 1rem;
+}

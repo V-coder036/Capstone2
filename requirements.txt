@@ -1,0 +1,5 @@
+pybuilder
+selenium 
+tensorflow
+flask
+pillow
